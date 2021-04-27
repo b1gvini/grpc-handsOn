@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="grpc.service.UserService"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="io.grpc.Server"/>
+    <fullyQualifiedTypeName name="io.grpc.ServerBuilder"/>
+    <fullyQualifiedTypeName name="generated.LoginRequest"/>
+    <fullyQualifiedTypeName name="io.grpc.stub.StreamObserver"/>
+    <fullyQualifiedTypeName name="generated.APIResponse"/>
+    <fullyQualifiedTypeName name="generated.Empty"/>
+    <fullyQualifiedTypeName name="service.UserService"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,17 @@
+package grpc;
+
+public class mael {
+
+	public static void main(String[] args) {
+		int num = 0;
+		
+		for(int i = 2;i>=0;i--) {
+			
+			for(int j=0; j<i; j++) {
+				num = num + i;
+			}
+		}
+		System.out.println(num);
+	}
+
+}
