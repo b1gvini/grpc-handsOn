@@ -26,5 +26,9 @@ public class UserService extends userGrpc.userImplBase{
 
     @Override
     public void logout(Empty request, StreamObserver<APIResponse> responseObserver) {
+    	APIResponse.Builder responseLogout = APIResponse.newBuilder();
+    	responseLogout.setResponseMessage("Deslogado").setResponseCode(204);
+    	responseObserver.onNext(responseLogout.build());
+    	responseObserver.onCompleted();
     }
 }
